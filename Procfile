@@ -1,0 +1,1 @@
+web: gunicorn sizwallettwopointfive.wsgi --log-file -

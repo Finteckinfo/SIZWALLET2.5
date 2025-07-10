@@ -124,12 +124,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Security
 CORS_ALLOWED_ORIGINS = [
-    'https://www.siz.land'
+    'https://www.siz.land',
+    'https://web-production-61e73.up.railway.app'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
 
 # CSRF Trusted Origins
 CSRF_TRUSTED_ORIGINS = [
-    'https://www.siz.land'
+    'https://www.siz.land',
+    'https://web-production-61e73.up.railway.app'
 ]
